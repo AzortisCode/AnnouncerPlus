@@ -1,0 +1,6 @@
+name: AnnouncerPlus
+authors: [YourPalJake, X1XX]
+main: com.azortis.announcerplus.AnnouncerPlus
+version: 1.0
+api-version: 1.13
+depend: [PlaceholderAPI]
