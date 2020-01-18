@@ -1,0 +1,31 @@
+{
+  "name": "ShopExample",
+  "permission": "-announcerplus.shopad.bypass",
+  "centered": true,
+  "text": [
+    {
+      "alignment": 1,
+      "text": ""
+    },
+    {
+      "alignment": 2,
+      "text": "&2Our shop"
+    },
+    {
+      "alignment": 3,
+      "text": "&7You can buy all sorts of stuff there!"
+    },
+    {
+      "alignment": 4,
+      "text": ""
+    },
+    {
+      "alignment": 5,
+      "jsonText":[{"text":"https://ourwebshop.com","italic":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://ourwebshop.com"}}]
+    },
+    {
+      "alignment": 6,
+      "text": ""
+    }
+  ]
+}

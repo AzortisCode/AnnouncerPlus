@@ -1,3 +1,16 @@
 {
-
+  "orderSettings":{
+    "random": false,
+    "interval": 6000,
+    "order": [
+      {
+        "alignment": 1,
+        "name": "ExampleAnnouncement"
+      },
+      {
+        "alignment": 2,
+        "name": "ShopExample"
+      }
+    ]
+  }
 }

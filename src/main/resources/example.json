@@ -1,0 +1,26 @@
+{
+  "name": "ExampleAnnouncement",
+  "permission": "announcerplus.announcement.example",
+  "world": "world",
+  "minecraftSound": "BLOCK_ANVIL_USE",
+  "centered": true,
+  "text": [
+    {
+      "alignment": 1,
+      "text": "&aThis is an example announcement"
+    },
+    {
+      "alignment": 2,
+      "text": "&cWith multi-line support!"
+    },
+    {
+      "alignment": 3,
+      "text": "&cThis line is not centered",
+      "centered": false
+    },
+    {
+      "alignment": 4,
+      "jsonText": [{"text":"This allows you to add full JSON components!","bold":true,"color":"blue","hoverEvent":{"action":"show_text","value":["",{"text":"Its just like a tellraw message here!","color":"gold"}]}},{"text":"This is another json text component!","italic":true,"color":"aqua"}]
+    }
+  ]
+}

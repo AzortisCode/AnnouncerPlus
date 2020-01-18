@@ -16,25 +16,7 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.azortis.announcerplus;
+package com.azortis.announcerplus.objects;
 
-import com.azortis.announcerplus.settings.SettingsManager;
-import org.bukkit.Bukkit;
-import org.bukkit.plugin.java.JavaPlugin;
-
-public final class AnnouncerPlus extends JavaPlugin {
-
-    private Metrics metrics;
-    private SettingsManager settingsManager;
-
-    @Override
-    public void onEnable(){
-        if (!Bukkit.getServer().getPluginManager().isPluginEnabled("PlaceholderAPI")) {
-            this.getLogger().severe("PlaceholderAPI isn't present, please install PlaceholderAPI! Shutting down...");
-            Bukkit.getServer().getPluginManager().disablePlugin(this);
-            return;
-        }
-
-    }
-
+public class Announcement {
 }
